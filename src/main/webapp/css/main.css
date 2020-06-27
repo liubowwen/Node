@@ -1,0 +1,23 @@
+#body{
+    color: #878787;
+    font-family:  caecilia, times, serif;
+
+}
+.color{
+    margin: 10px;
+    color: #878787;
+
+}
+.font{
+    font-family:  caecilia, times, serif;
+    font-size: 15px;
+
+}
+.font:hover{
+    background-color: #2dbe60;
+    color: white;
+}
+.title{
+    color: #0f0f0f;
+
+}

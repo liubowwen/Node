@@ -9,4 +9,5 @@ public class Node {
       private String content;
       private int uid;
       private Long creatTime;
+      private Long modifiedTime;
 }

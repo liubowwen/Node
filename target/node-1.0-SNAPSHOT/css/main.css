@@ -11,13 +11,22 @@
 .font{
     font-family:  caecilia, times, serif;
     font-size: 15px;
+    cursor:pointer;
+
 
 }
 .font:hover{
     background-color: #2dbe60;
     color: white;
+
 }
 .title{
     color: #0f0f0f;
 
+}
+
+.text1{
+
+
+    height:80%;
 }

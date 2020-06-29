@@ -8,4 +8,5 @@
     <select id="findall" resultType="vip.wylbw.Model.Node">
         SELECT * from mynode.node;
     </select>
+
 </mapper>

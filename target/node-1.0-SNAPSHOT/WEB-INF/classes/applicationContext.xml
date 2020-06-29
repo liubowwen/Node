@@ -37,6 +37,9 @@
 
 
     <context:component-scan base-package="vip.wylbw.Controller"/>
+    <context:component-scan base-package="vip.wylbw.Service"/>
+    <context:component-scan base-package="vip.wylbw.Mapper"/>
+
 
     <!--    视图解析器-->
     <bean id="resolverComposite" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -45,8 +48,8 @@
 
     </bean>
     <mvc:annotation-driven/>
-   <mvc:resources mapping="js/*.js"  location="/js/" />
-   <mvc:resources mapping="css/*.css"  location="/css/" />
+   <mvc:resources mapping="js/*.**"  location="/js/" />
+   <mvc:resources mapping="css/*.**"  location="/css/" />
 
 
 
